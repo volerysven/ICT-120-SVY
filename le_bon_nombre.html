@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>123</title>
+</head>
+<body>
+
+</body>
+    <title>Devinez un nombre</title>
+    <script LANGUAGE="JavaScript" type="text/JavaScript">
+        number = Math.floor(math.random()*100)
+            attempts = 0
+    do {
+        attempts++
+        guess = prompt('Essai' +attempts+":")
+        if (guess > number){
+            alert('Trop grand')
+        }
+    if (guess < number){
+        alert("Trop petit")
+    }
+    }while (guess != number)
+        alert("Gagné en " +attempts+ "essai")
+    </script>
+
+</html>
